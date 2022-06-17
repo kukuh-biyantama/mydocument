@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterResponse.MainRegisterActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/abuabu"
+        android:text="@string/judulRegister"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--edittext nama-->
+    <com.dicoding.mystoryapps_submission.CustomView.Register.myFormNamaRegister
+        android:id="@+id/myFormNamaRegister"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <!--edittext email-->
+    <com.dicoding.mystoryapps_submission.CustomView.Register.myFormEmailRegister
+        android:id="@+id/myFormEmailRegister"
+        android:inputType="textEmailAddress"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myFormNamaRegister" />
+
+    <!--edittext password-->
+    <com.dicoding.mystoryapps_submission.CustomView.Register.myFormPasswordRegister
+        android:id="@+id/myFormPasswordRegister"
+        android:inputType="textPassword"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myFormEmailRegister" />
+
+    <!--progress bar-->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <!--buttonRegister-->
+    <com.dicoding.mystoryapps_submission.CustomView.Register.myFormButtonRegister
+        android:id="@+id/btnRegister"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myFormPasswordRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

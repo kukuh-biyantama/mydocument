@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyStoryApps_Submission</string>
+    <string name="judulLogin">Silahkan Login</string>
+    <string name="judulMain">Upload Youre Story</string>
+    <string name="judulRegister">Silahkan Registrasi</string>
+    <string name="title_welcome">Selamat Datang MyStoryApp</string>
+    <string name="message_welcome">Selamat Menggunakan Aplikasi</string>
+    <string name="signup">Registrasi</string>
+    <string name="login">Login</string>
+    <string name="logout">keluar</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="register_successful">Akun telah terdaftar!</string>
+    <string name="login_successful">login berhasil</string>
+    <string name="not">Gagal</string>
+    <string name="storynotfound">tidak ada story</string>
+    <string name="deskripsi">Detail Deskripsi</string>
+    <string name="lihat_gambar">Lihat utuh gambar</string>
+    <string name="camera">Ambil gambar</string>
+    <string name="rotate">putar kamera</string>
+    <string name="Galeri">Buka Galeri</string>
+    <string name="prosesPhoto">Harap ditunggu ya!</string>
+    <string name="GambarPost">Gambar story</string>
+    <string name="DeskripsiStori">Deskripsikan story anda</string>
+    <string name="tunggu_proses">Tunggu hingga proses selesai</string>
+    <string name="deskripsi_kosong">Deskripsi tidak boleh kosong</string>
+    <string name="gambar_posting">Gambar Terposting</string>
+    <string name="permission_stori">permisi camera diizinkan</string>
+    <string name="password_more_6">password kurang dari 6</string>
+    <string name="coba_lagi">CobaLagi</string>
+    <string name="upload_sukses">sukses upload</string>
+    <string name="maps">maps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="cerita_by">Cerita diupload oleh: </string>
+    <string name="not_location">Lokasi Tidak tersedia</string>
+    <string name="location_available">Lokasi saat ini</string>
+</resources>
